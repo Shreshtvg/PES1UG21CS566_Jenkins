@@ -14,8 +14,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                printf("hello")
-                echo 'deploy'
+                echos 'deploy'
             }
         }
     }
